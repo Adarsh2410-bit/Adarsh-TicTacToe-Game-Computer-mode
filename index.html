@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Adarsh Tic Tac Toe Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tic Tac Toe</h1>
+    
+    <div class="mode-selection" id="modeSelection">
+      <button onclick="startGame('1')"</button>Player vs Computer</button>
+      <button onclick="startGame('2')">2 Players</button>
+    </div>
+
+    <div class="status" id="status">Choose Game Mode</div>
+    <div class="board" id="board"></div>
+    <button class="restart-btn" onclick="restartGame()">Restart Game</button>
+  </div>
+
+  <!-- Sound Effects -->
+  <audio id="tapSound" src="click.mp3"></audio>
+  <audio id="winSound" src="gameover.mp3"></audio>
+  <audio id="drawSound" src="tie.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
