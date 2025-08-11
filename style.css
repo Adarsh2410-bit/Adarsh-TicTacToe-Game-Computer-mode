@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #f3097e, #7400e7);
+  background: linear-gradient(135deg, #ff0000, #7400e7);
 }
 
 .container {
@@ -38,7 +38,7 @@ h1 {
   padding: 10px 25px;
   font-size: 1rem;
   color: #333;
-  background: linear-gradient(to right, #13812b, #cf19b1);
+  background: linear-gradient(to right, #dff3e4, #161015);
   border: none;
   border-radius: 10px;
   cursor: pointer;
